@@ -12,8 +12,13 @@ namespace DefenseObject
         {
             if (!map.OnMap(this))
             {
-                throw new OutOfBoundsException(x + ", " + y + " is not on this map.");
+                throw new OutOfBoundsException(this + " is not on this map.");
             }
+        }
+
+        public bool InRangeOf(MapLocation location, int range)
+        {
+            return DistanceTo(location) <= range;
         }
     }
 }
