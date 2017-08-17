@@ -1,5 +1,4 @@
 ﻿using System;
-using DefenseObject2;
 
 namespace TowerDefense
 {
@@ -69,7 +68,7 @@ namespace TowerDefense
             {
                 Console.WriteLine(ex.Message);
             }
-            catch (DefenseException ex)
+            catch (DefenseException)
             {
                 Console.WriteLine("Unhandled DefenseException");
             }

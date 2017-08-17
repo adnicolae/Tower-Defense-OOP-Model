@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using DefenseObject2;
 
 namespace TowerDefense
 {
@@ -24,7 +23,7 @@ namespace TowerDefense
 
         public bool IsSuccessfulShot()
         {
-            return DefenseObject2.Random.NextDouble() < Accuracy;
+            return Random.NextDouble() < Accuracy;
         }
 
         public void FireOnInvaders(IInvader[] invaders)
