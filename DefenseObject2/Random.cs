@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DefenseObject2
+namespace TowerDefense
 {
     static class Random
     {

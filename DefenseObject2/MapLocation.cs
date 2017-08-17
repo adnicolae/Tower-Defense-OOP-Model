@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DefenseObject
+namespace TowerDefense
 {
     // inheritence in C#
     class MapLocation : Point

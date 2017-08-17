@@ -1,7 +1,7 @@
 ﻿using System;
 using DefenseObject2;
 
-namespace DefenseObject
+namespace TowerDefense
 {
     class Game
     {

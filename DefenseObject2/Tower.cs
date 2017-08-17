@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using DefenseObject2;
 
-namespace DefenseObject
+namespace TowerDefense
 {
     class Tower
     {

@@ -4,7 +4,7 @@ using System.Text;
 using DefenseObject2;
 using DefenseObject;
 
-namespace DefenseObject2
+namespace TowerDefense
 {   
     // Polymorphism - own implementation of DecreaseHealth
     // by adding 'virtual' in Invader Class we can provide 

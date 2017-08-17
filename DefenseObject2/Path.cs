@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DefenseObject
+namespace TowerDefense
 {
     class Path
     {

@@ -4,7 +4,7 @@ using System.Text;
 using DefenseObject;
 using DefenseObject2;
 
-namespace DefenseObject
+namespace TowerDefense
 {
     // : IInvader means Invader implements IInvader
     abstract class Invader : IInvader
